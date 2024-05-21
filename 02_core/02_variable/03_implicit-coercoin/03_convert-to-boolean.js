@@ -12,6 +12,8 @@ if(0) console.log("if(0)");
 if(NaN) console.log("if(NaN)");
 if('') console.log("if('')");
 if('JavaScript') console.log("if('JavaScript')");
+var int = 0;
+if(int) console.log("dfffd")
 
 // false, undefined, null, 0, NaN, ''(빈 문자열)은 Falsy 값이며
 // 이 외의 모든 값은 Truthy 값이다.
