@@ -6,7 +6,7 @@ ES11(ECMAScript2020)에서 도입된 연산자로 죄항의 피연산자가 null
 var obj = null;
 // TypeError: Cannot read properties of null (reading 'value')
 // let val = obj.value;
-var val = obj?.value;
+var val = obj?.value; // 이거 많이씀********* obj에 value라는 속성이 존재해? 존재하면 true값 반환
 console.log(val);
 
 // 옵셔널 체이닝 연산자 이전에는 논리연산자 &&를 사용한 단축 평가로 확인했다.
