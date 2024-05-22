@@ -5,3 +5,5 @@ var flag = true;
 console.log(flag);
 flag = false;
 console.log(flag);
+
+console.log(`제 이름은${flag}입니다.`);
