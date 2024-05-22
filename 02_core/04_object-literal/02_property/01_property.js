@@ -17,7 +17,9 @@ console.log(student);
 단, 식별자 네이밍 규칙을 따르지 않는 이름은 따옴표를 반드시 사용해야 하며 가능한 식별자 네이밍 규칙을 따르는 것을 권장한다.
 프로퍼티 값 : 자바스크립트에서 사용할 수 있는 모든 값
 */
+var test = 1;
 var obj = {
+    test : "dfdf",
     normal : 'normal value',
     '@ s p a c e @' : 'space value',
     '' : '',                // 빈 문자열 키는 오류 발생하지는 않지만 권장하지 않는다.
