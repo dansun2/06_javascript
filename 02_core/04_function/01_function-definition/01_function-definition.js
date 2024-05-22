@@ -21,3 +21,7 @@ console.log(hello('홍길동')); => 식별자 hello를 호출
 let test = function(){
     return "hit"
 };
+
+(function(){
+    console.log("dfd")
+})()
