@@ -19,6 +19,20 @@ var hi = function(name) {
     return `${name} 안녕~`;
 }
 
+// 실행시
+// function hello(name){
+//     return `${name}님 안녕하세요!`;
+// }
+
+// var hi;
+
+// console.log(hello);
+// console.log(hi);
+// hi = function(name){
+//     return `${name} 안녕~`;
+// }
+
+
 /*
 함수 선언문은 런타임 이전 자바스크립트 엔진에 의해 먼저 실행 된다. 
 따라서 함수 선언문 이전에 함수를 참조할 수 있으며 호출할 수도 있다. 
