@@ -5,7 +5,7 @@ var price =  30000;
 
 
 var product={
-    id:id,
+    id: id,
     price:price
 }
 
